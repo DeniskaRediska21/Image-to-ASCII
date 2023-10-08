@@ -20,7 +20,7 @@ img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.
 + verbose (True/False) - if True shows final image on screen
 + original_resolution (True/False)- if True final img will be in the same resolution as input image
 + flip (True/False)- if True flips the chars array
-+ sys_font_size (touple of 2 Floats) - needed because in different systems default system font size differs (in windows (6,6), in ubuntu (13,6))i
++ sys_font_size (touple of 2 Floats) - needed because in different systems default system font size differs (in windows (6,6), in ubuntu (13,6))
  
 ### Outputs
 
