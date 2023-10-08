@@ -29,6 +29,12 @@ img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.
 
 ## Gallery
 
+### Original image
+
+![Original image](Data/Penguins.jpg)
+
+_________
+
 ### Original colors 0.1 scale
 
 ```
