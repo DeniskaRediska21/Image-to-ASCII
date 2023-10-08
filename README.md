@@ -4,7 +4,9 @@ Python function that turns any image to ASCII-art.
 
 ## Function defenition
 
+```
 img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.1,background = (255,255,255),textcolor = (0,0,0), verbose = True, original_resolution = False, flip = True, sys_font_size = (6,6))
+```
 
 ### Inputs
 
@@ -29,55 +31,55 @@ img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.
 
 ### Original colors 0.1 scale
 
-'''
+```
 ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@'], spacing = 8, scale = 0.1,background = (255,255,255),textcolor = 'original', verbose = False, original_resolution = False, flip = True,sys_font_size = (13,6))
 ascii_img.save("Results/original_colors_scale_0_1.jpg")
-'''
+```
 
-![Original colors 0.1 scale]<Results/original_colors_scale_0_1.jpg>
+![Original colors 0.1 scale](Results/original_colors_scale_0_1.jpg)
 
 _________
 
 ### Grayscale 0.1 scale
 
-'''
+```
 ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ', '.', '-','+','#', '@'], spacing = 9, scale = 0.1,background = (255,255,255),textcolor = (0,0,0), verbose = True, original_resolution = False, flip = True, sys_font_size = (13,6))
 ascii_img.save("Results/grayscale_scale_0_1.jpg")
-'''
+```
 
-![Grayscale 0.1 scale]<Results/grayscale_scale_0_1.jpg>
+![Grayscale 0.1 scale](Results/grayscale_scale_0_1.jpg)
 
 _________
 
 ### Original colors 0.2 scale
 
-'''
+```
 ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@'], spacing = 8, scale = 0.2,background = (255,255,255),textcolor = 'original', verbose = False, original_resolution = False, flip = True,sys_font_size = (13,6))
 ascii_img.save("Results/original_colors_scale_0_2.jpg")
-'''
+```
 
-![Original colors 0.2 scale]<Results/original_colors_scale_0_2.jpg>
+![Original colors 0.2 scale](Results/original_colors_scale_0_2.jpg)
 
 _________
 
 ### Grayscale 0.2 scale
 
-'''
+```
 ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ', '.', '-','+','#', '@'], spacing = 9, scale = 0.2,background = (255,255,255),textcolor = (0,0,0), verbose = True, original_resolution = False, flip = True, sys_font_size = (13,6))
 ascii_img.save("Results/grayscale_scale_0_2.jpg")
-'''
+```
 
-![Grayscale 0.1 scale]<Results/grayscale_scale_0_2.jpg>
+![Grayscale 0.1 scale](Results/grayscale_scale_0_2.jpg)
 
 _________
 
 ### Original colors 0.2 scale, black background
 
-'''
+```
 ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@'], spacing = 8, scale = 0.2,background = (0,0,0),textcolor = 'original', verbose = False, original_resolution = False, flip = True,sys_font_size = (13,6))
 ascii_img.save("Results/original_colors_scale_0_2_blackBG.jpg")
-'''
+```
 
-![Original colors 0.2 scale black BG]<Results/original_colors_scale_0_2_blackBG.jpg>
+![Original colors 0.2 scale black BG](Results/original_colors_scale_0_2_blackBG.jpg)
 
 _________
