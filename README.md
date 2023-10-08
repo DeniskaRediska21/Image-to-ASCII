@@ -34,7 +34,7 @@ ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@
 ascii_img.save("Results/original_colors_scale_0_1.jpg")
 '''
 
-[Original colors 0.1 scale]<Results/original_colors_scale_0_1.jpg>
+![Original colors 0.1 scale]<Results/original_colors_scale_0_1.jpg>
 
 _________
 
@@ -45,7 +45,7 @@ ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ', '.', '-','+',
 ascii_img.save("Results/grayscale_scale_0_1.jpg")
 '''
 
-[Grayscale 0.1 scale]<Results/grayscale_scale_0_1.jpg>
+![Grayscale 0.1 scale]<Results/grayscale_scale_0_1.jpg>
 
 _________
 
@@ -56,7 +56,7 @@ ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@
 ascii_img.save("Results/original_colors_scale_0_2.jpg")
 '''
 
-[Original colors 0.2 scale]<Results/original_colors_scale_0_2.jpg>
+![Original colors 0.2 scale]<Results/original_colors_scale_0_2.jpg>
 
 _________
 
@@ -67,7 +67,7 @@ ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ', '.', '-','+',
 ascii_img.save("Results/grayscale_scale_0_2.jpg")
 '''
 
-[Grayscale 0.1 scale]<Results/grayscale_scale_0_2.jpg>
+![Grayscale 0.1 scale]<Results/grayscale_scale_0_2.jpg>
 
 _________
 
@@ -78,6 +78,6 @@ ascii_img, chars = img_to_ASCII('Data/Penguins.jpg', chars = [' ','.','+','#','@
 ascii_img.save("Results/original_colors_scale_0_2_blackBG.jpg")
 '''
 
-[Original colors 0.2 scale black BG]<Results/original_colors_scale_0_2_blackBG.jpg>
+![Original colors 0.2 scale black BG]<Results/original_colors_scale_0_2_blackBG.jpg>
 
 _________
