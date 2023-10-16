@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 import numpy as np
 import re
 
-def img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.1,background = (255,255,255),textcolor = (0,0,0), verbose = True, original_resolution = False, flip = True, sys_font_size = (6,6)): 
+def img_to_ASCII(PATH = '', chars = [' ', '.','+','=', '#'], spacing = 10, scale = 0.1,background = (255,255,255),textcolor = (0,0,0), verbose = True, original_resolution = False, flip = True, sys_font_size = (6,6),IMAGE = None): 
     # converts image to provided chars and outputs them as PIL image
     
     # flip char array if needed
@@ -11,7 +11,12 @@ def img_to_ASCII(PATH:str, chars = [' ', '.','+','=', '#'], spacing = 10, scale 
         chars = np.flip(chars)
     
     chars = np.array(chars)
-    img = Image.open(PATH)
+
+    if IMAGE is None:
+        img = Image.open(PATH)
+    else:
+        img = IMAGE
+
     h,l = img.size
     img = img.resize((np.array((h,l))*scale).astype(np.uint64))
     img = np.array(img) 
